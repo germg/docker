@@ -1,1 +1,1 @@
-# Dockerfiles for creating individual images and containers, databases, for development
+# Dockerfiles for creating individual images and containers for relational and NoSQL databases
