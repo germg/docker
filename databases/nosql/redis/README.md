@@ -12,5 +12,5 @@ docker build -t my-redis:7 -f Dockerfile .
 Replace arguments with yours credentials. Don't forget replace the container name and tag.
 
 ```shell
-docker run --name my-redis-container -p 6379:6379 -e REDIS_PASSWORD=my_redis_pass -d my-redis:7
+docker run --name my-redis-container -p 6379:6379 -d my-redis:7 redis-server --requirepass "my_redis_password"
 ```
